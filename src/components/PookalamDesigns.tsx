@@ -1,6 +1,59 @@
 export const PookalamDesigns = () => {
   return (
     <div className="space-y-12">
+      {/* Real Pookalam Images */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="flex justify-center animate-fade-in">
+          <div className="relative w-80 h-80 rounded-full overflow-hidden onam-shadow">
+            <img 
+              src="/lovable-uploads/5fb88147-d7e3-4139-852d-1514a4c5c231.png"
+              alt="Traditional Colorful Pookalam"
+              className="w-full h-full object-cover floating-animation hover:scale-110 transition-transform duration-500"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300" />
+          </div>
+        </div>
+        
+        <div className="flex justify-center animate-fade-in" style={{ animationDelay: '0.3s' }}>
+          <div className="relative w-80 h-80 rounded-full overflow-hidden onam-shadow">
+            <img 
+              src="/lovable-uploads/c9ef2c62-f0e1-4e42-a091-8d6c5aad6ef1.png"
+              alt="Stained Glass Style Pookalam"
+              className="w-full h-full object-cover floating-animation hover:scale-110 transition-transform duration-500"
+              style={{ animationDelay: '1s' }}
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300" />
+          </div>
+        </div>
+        
+        <div className="flex justify-center animate-fade-in" style={{ animationDelay: '0.6s' }}>
+          <div className="relative w-80 h-80 rounded-full overflow-hidden onam-shadow">
+            <img 
+              src="/lovable-uploads/0ee1ada3-b67a-4dcf-8065-a763ab4f6910.png"
+              alt="Pixelated Modern Pookalam"
+              className="w-full h-full object-cover floating-animation hover:scale-110 transition-transform duration-500"
+              style={{ animationDelay: '2s' }}
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300" />
+          </div>
+        </div>
+      </div>
+
+      {/* Decorative separator */}
+      <div className="flex justify-center py-8">
+        <div className="flex items-center gap-4">
+          <div className="w-16 h-0.5 onam-gradient"></div>
+          <span className="text-3xl">🌸</span>
+          <div className="w-16 h-0.5 onam-gradient"></div>
+        </div>
+      </div>
+
+      {/* SVG Interpretations */}
+      <div className="space-y-4 text-center">
+        <h3 className="text-2xl font-semibold text-foreground">Artistic Interpretations</h3>
+        <p className="text-muted-foreground">Inspired by the traditional designs above</p>
+      </div>
+
       {/* Pookalam Design 1 - Colorful Mandala */}
       <div className="flex justify-center animate-fade-in">
         <div className="relative w-80 h-80">
