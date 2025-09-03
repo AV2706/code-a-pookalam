@@ -6,7 +6,7 @@ export const PookalamDesigns = () => {
         <div className="flex justify-center animate-fade-in">
           <div className="relative w-80 h-80 rounded-full overflow-hidden onam-shadow">
             <img 
-              src="public/Digital drawing (pookalam)/5fb88147-d7e3-4139-852d-1514a4c5c231.png"
+              src="public/lovable-uploads/5fb88147-d7e3-4139-852d-1514a4c5c231.png"
               alt="Traditional Colorful Pookalam"
               className="w-full h-full object-cover floating-animation hover:scale-110 transition-transform duration-500"
             />
@@ -17,7 +17,7 @@ export const PookalamDesigns = () => {
         <div className="flex justify-center animate-fade-in" style={{ animationDelay: '0.3s' }}>
           <div className="relative w-80 h-80 rounded-full overflow-hidden onam-shadow">
             <img 
-              src="public/Digital drawing (pookalam)/c9ef2c62-f0e1-4e42-a091-8d6c5aad6ef1.pngpublic/Digital drawing (pookalam)/c9ef2c62-f0e1-4e42-a091-8d6c5aad6ef1.png"
+              src="public/lovable-uploads/c9ef2c62-f0e1-4e42-a091-8d6c5aad6ef1.png"
               alt="Stained Glass Style Pookalam"
               className="w-full h-full object-cover floating-animation hover:scale-110 transition-transform duration-500"
               style={{ animationDelay: '1s' }}
@@ -29,7 +29,7 @@ export const PookalamDesigns = () => {
         <div className="flex justify-center animate-fade-in" style={{ animationDelay: '0.6s' }}>
           <div className="relative w-80 h-80 rounded-full overflow-hidden onam-shadow">
             <img 
-              src="public/Digital drawing (pookalam)/0ee1ada3-b67a-4dcf-8065-a763ab4f6910.png"
+              src="public/lovable-uploads/0ee1ada3-b67a-4dcf-8065-a763ab4f6910.png"
               alt="Pixelated Modern Pookalam"
               className="w-full h-full object-cover floating-animation hover:scale-110 transition-transform duration-500"
               style={{ animationDelay: '2s' }}
