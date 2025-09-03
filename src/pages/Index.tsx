@@ -23,7 +23,7 @@ const Index = () => {
               <div className="flex items-center justify-center gap-2 mb-4">
                 <Sparkles className="w-8 h-8 text-onam-gold animate-gentle-pulse" />
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold onam-gradient bg-clip-text text-transparent">
-                  Onam Gallery
+                  Code a pookalam collection
                 </h1>
                 <Sparkles className="w-8 h-8 text-onam-gold animate-gentle-pulse" />
               </div>
@@ -52,10 +52,10 @@ const Index = () => {
         <div className="max-w-6xl mx-auto space-y-12">
           <div className="text-center space-y-4 animate-slide-in-up">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-              Traditional Pookalam Designs
+              Traditional Pookalam Designs made using digital drawing platform
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Experience the sacred geometry and vibrant beauty of Kerala's traditional flower arrangements
+              Blend of the sacred geometry and vibrant beauty of Kerala's traditional flower arrangements and technology
             </p>
           </div>
           <PookalamDesigns />
